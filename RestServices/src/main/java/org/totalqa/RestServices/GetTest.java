@@ -31,7 +31,7 @@ package org.totalqa.RestServices;
 			 */
 			int statusCode = response.getStatusCode();
 			System.out.println(statusCode);
-		
+		System.out.println("aparna");
      		Assert.assertEquals(statusCode, 200, "Correct status code not returned :");
 
 			String statusLine = response.getStatusLine();
